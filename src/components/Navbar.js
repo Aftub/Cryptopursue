@@ -50,7 +50,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle = "btn--outline" children = "Sign Up" />}
+                    {button && <Button buttonStyle = "btn--outline" children = "Sign-Up" />}
                 </div>
             </nav>
         </>
