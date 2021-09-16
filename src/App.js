@@ -2,6 +2,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Coingeco } from './components/Coingeco';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
           <Route path = "/" exact />
       </Switch>
     </Router>
-      
+      <Coingeco />
     </>
   );
 }
